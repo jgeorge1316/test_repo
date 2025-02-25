@@ -44,7 +44,6 @@ git remote -v
 ```
 git add .
 ```
-.gitignore isn't working and idk why :(
 
 ## commit (with message)
 ```
