@@ -32,28 +32,28 @@ python test.py
 
 # using Github
 ## initialize git in folder
-```sh**
+```bash
 git init
 ```
 
 ## connect to github repo and check
-```sh**
+```bash
 git remote add origin your-repo-url
 git remote -v
 ```
 
 ## add files
-```sh**
+```bash
 git add .
 ```
 
 ## commit (with message)
-```sh**
+```bash
 git commit -m "put message here"
 ```
 
 ## push to github (to main branch of course :) )
-```sh**
+```bash
 git branch -M main
 git push -u origin main
 ```
