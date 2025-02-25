@@ -2,57 +2,58 @@
 Testing github usage through terminal
 
 ## clone github
-```console
+```sh**
 git clone https://github.com/jgeorge1316/test_repo
 cd test_repo
 ```
 
 ## setup venv in windows:
 Create venv windows:
-```
+```sh**
 python -m venv env
 ```
+
 ## enter virtual environment in windows
 Windows terminal command to activate venv:
-```
+```sh**
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 env\Scripts\activate
 ```
 
 ## install necessary libraries
-```
+```sh**
 pip install -r requirements.txt
 ```
 
 ## run test.py 
-```
+```sh**
 python test.py
 ```
 
 # using Github
 ## initialize git in folder
-```
+```sh**
 git init
 ```
 
 ## connect to github repo and check
-```
+```sh**
 git remote add origin your-repo-url
 git remote -v
 ```
 
 ## add files
-```
+```sh**
 git add .
 ```
 
 ## commit (with message)
-```
+```sh**
 git commit -m "put message here"
 ```
 
-## push to github (to main branch of course :))
-```
+## push to github (to main branch of course :) )
+```sh**
 git branch -M main
 git push -u origin main
 ```
