@@ -3,8 +3,8 @@ Testing github usage through terminal
 
 ## clone github
 ```console
-$ git clone https://github.com/jgeorge1316/test$_repo
-$ cd test_repo
+git clone https://github.com/jgeorge1316/test_repo
+cd test_repo
 ```
 
 ## setup venv in windows:
