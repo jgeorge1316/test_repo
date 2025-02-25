@@ -11,10 +11,11 @@ Create venv windows:
 ```
 python -m venv env
 ```
+# enter virtual environment in windows
 Windows terminal command to activate venv:
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-env1\Scripts\activate
+env\Scripts\activate
 ```
 
 ## install necessary libraries
