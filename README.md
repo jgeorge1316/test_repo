@@ -16,5 +16,30 @@ env1\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
+#using Github
+## initialize git in folder
+```
+git init
+```
 
-##
+## connect to github repo and check
+```
+git remote add origin your-repo-url
+git remote -v
+```
+
+## add files
+```
+git add .
+```
+
+## commit (with message)
+```
+git commit -m "Initial commit"
+```
+
+## push to github (to main branch of course :))
+```
+git branch -M main
+git push -u origin main
+```
