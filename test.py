@@ -1,3 +1,3 @@
 import numpy
 
-print("hello world!")
+print(numpy.version())
