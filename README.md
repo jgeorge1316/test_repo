@@ -11,7 +11,7 @@ Create venv windows:
 ```
 python -m venv env
 ```
-# enter virtual environment in windows
+## enter virtual environment in windows
 Windows terminal command to activate venv:
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
@@ -42,8 +42,9 @@ git remote -v
 
 ## add files
 ```
-git add .gitignore
+git add .
 ```
+.gitignore isn't working and idk why :(
 
 ## commit (with message)
 ```
